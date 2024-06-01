@@ -1,0 +1,3 @@
+- trebuie sa dati run la fisierul main.py
+- va fi deschisa o interfata ce raspunde doar la comanda 'space' si nu poate fi redimensionata
+- apasand pe space se trece la urmatorul pas din executie
