@@ -5,14 +5,6 @@ from functools import partial
 # root.bind('<Return>', partial(currentFrame.renew, C, frame, Memory, Registers, intrReg, code, 2, 3))
 # root.bind('<space>', partial(currentFrame.renew, C, frame, Memory, Registers, intrReg, code, 9, 5))
 
-
-wait = 1
-
-def sys_wait():
-    while(wait == 1):
-        print("")
-    wait = 1
-
 root = Tk()
 root.geometry("1280x720")
 root.minsize(1280, 720)
